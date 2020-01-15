@@ -1,0 +1,10 @@
+A=5
+B=10
+print("the value of variables before swapping are ")
+print(A)
+print(B)
+print("the value of variables after swapping are ")
+A,B=B,A
+B=temp
+print(A)
+print(B)
