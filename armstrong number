@@ -1,0 +1,12 @@
+
+import math
+a=(input("enter the number"))
+b=list(a)
+b=list(map(lambda a:int (a),b))
+b= list(map(lambda a: a*a*a,b))
+k=sum(b)
+print(k)
+if(k==int(a)):
+   print("it is armstrong number")
+else:
+    print("it is not armstrong number")
